@@ -47,7 +47,6 @@ Always cite the titles and authors of the papers you found."""
     
     # Run the agent
     response = agent_executor.invoke({"messages": [HumanMessage(content=research_proposal)]})
-    
     # Get the last message from the agent
     final_output = response["messages"][-1].content
     return final_output

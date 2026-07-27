@@ -46,7 +46,6 @@ python api.py
 ### 3. Set up the Frontend (React UI)
 Open a new terminal window:
 ```bash
-cd frontend
 npm install
 npm run dev
 ```
